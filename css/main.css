@@ -6,6 +6,12 @@ body{
     margin: 0 auto;
 }
 
+/*Tirando as propriedades padroes do UL*/
+
+ul{
+    padding: 0px!important;
+}
+
 .menu-principal{
     width: 100%;
     background-color: #252323;
@@ -40,7 +46,13 @@ main{
 
 .header-2{
     background-color: #fff;
-    width: 100%;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.itens-menu{
+    height: 80px;
     border-bottom: 3px solid #efefef;
 }
 
@@ -54,6 +66,7 @@ main{
     color: #8b8b8b;
     font-size: 14px;
     text-decoration: none; /*retira a estilização da tag a*/
+    text-transform: uppercase;
 }
 
 .menu{
@@ -62,6 +75,24 @@ main{
 }
 
 .busca{
+    /*text-align: center;*/
     width: 30%;
     float: right;
+}
+
+.busca input{
+    background-image: url('../img/pesquisar.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 36px;
+    width: 190px;
+    margin-top: 5px;
+    padding-left: 8px;
+    border: 1px solid #d6d6d6;
+}
+
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
 }
