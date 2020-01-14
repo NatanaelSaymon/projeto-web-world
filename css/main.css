@@ -1,9 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 body{
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*Tirando as propriedades padroes do UL*/
@@ -18,7 +19,7 @@ ul{
     height: 60px;
 }
 
-main{
+main, .content{
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -161,4 +162,52 @@ ul.slick-dots {
 
 li.slick-active button{
     background: #00bac6;
+}
+
+/* Texto em destaque */
+
+.content{
+    text-align: center;
+}
+
+.text-h1{
+    font-size: 23pt;
+    text-transform: uppercase;
+    text-align: center;
+    color: #818181;
+}
+
+.text-h1 strong{
+    color: #646464;
+    font-weight: 800;
+}
+
+.text-p{
+    text-align: center;
+    font-size: 13pt;
+    color: #9a9a9a;
+}
+
+.espaco{
+    margin-top: 3em;
+}
+
+/*cads*/
+
+.col-3{
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+
+.text-p-2{
+    font-size: 15pt;
+}
+
+.text-p-2 strong{
+    font-weight: bold;
+}
+
+.text-p-3{
+    font-size: 12pt;
 }
