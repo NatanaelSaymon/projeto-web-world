@@ -73,6 +73,7 @@ main, .content{
 
 .menu ul li a:hover{
     color: #00bac6;
+    
 }
 
 .menu ul li a{
@@ -80,6 +81,7 @@ main, .content{
     font-size: 14px;
     text-decoration: none; /*retira a estilização da tag a*/
     text-transform: uppercase;
+    padding-bottom: 30px;
 }
 
 .menu{
@@ -211,4 +213,55 @@ li.slick-active button{
 
 .text-p-3{
     font-size: 12pt;
+}
+
+.meio{
+    margin-top: 35px;
+}
+
+/* Card de fotos */
+
+.col-card-3{
+    width: 30%;
+    float: left;
+    position: relative;
+    text-align: left;
+    margin-top: 35px;
+    margin-left: 30px;
+    border: 1px solid #c5c5c5;
+}
+
+.col-card-3 img{
+    width: 295px;
+    height: 190px;
+}
+
+.col-card-3 strong{
+    font-size: 12pt;
+    font-weight: 900;
+}
+
+.col-card-3 p{
+    color: #818181;
+    font-size: 12pt;
+    padding: 12px;
+}
+
+.espaco{
+    margin-left: 30px;
+}
+
+.card-imgs{
+    background-color: #eeeeee;
+}
+
+.card-imgs:before{
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background-color: #fff;
+    background-image: url('../img/Seta.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
