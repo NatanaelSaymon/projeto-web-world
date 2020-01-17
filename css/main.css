@@ -227,6 +227,7 @@ li.slick-active button{
     position: relative;
     text-align: left;
     margin-top: 35px;
+    /* margin-bottom: 35px; */
     margin-left: 30px;
     border: 1px solid #c5c5c5;
 }
@@ -247,10 +248,6 @@ li.slick-active button{
     padding: 12px;
 }
 
-.espaco{
-    margin-left: 30px;
-}
-
 .card-imgs{
     background-color: #eeeeee;
 }
@@ -264,4 +261,48 @@ li.slick-active button{
     background-image: url('../img/Seta.png');
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.card-imgs:after{
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 50px;
+    background-color: #eeeeee;
+}
+
+/*Logos*/
+
+.col-4{
+    float: left; /*deixando tosos os logos a direita*/
+    width: 25%;
+    margin-top: 40px;
+}
+
+.bloco-logos{
+    height: 170px;
+}
+
+.col-4 img{
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+/*zoom da img*/
+
+.zoom{
+    overflow: hidden;
+}
+
+.zoom img{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom img:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
