@@ -204,7 +204,9 @@ li.slick-active button{
 }
 
 .text-p-2{
+    text-align: center;
     font-size: 15pt;
+    color: #818181;
 }
 
 .text-p-2 strong{
@@ -212,7 +214,9 @@ li.slick-active button{
 }
 
 .text-p-3{
+    text-align: center;
     font-size: 12pt;
+    color: #818181;
 }
 
 .meio{
